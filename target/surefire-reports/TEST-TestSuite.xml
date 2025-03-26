@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="26.939" tests="7" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign/target/test-classes:/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign/target/classes:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/vetrikuzhal/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/vetrikuzhal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vetrikuzhal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vetrikuzhal/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/vetrikuzhal/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/vetrikuzhal/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/vetrikuzhal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/vetrikuzhal/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.3/webdrivermanager-5.9.3.jar:/Users/vetrikuzhal/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/vetrikuzhal/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java/3.4.1/docker-java-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-core/3.4.1/docker-java-core-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-api/3.4.1/docker-java-api-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.1/docker-java-transport-httpclient5-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-transport/3.4.1/docker-java-transport-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/vetrikuzhal/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/vetrikuzhal/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/vetrikuzhal/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/vetrikuzhal/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/vetrikuzhal/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/vetrikuzhal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/vetrikuzhal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/vetrikuzhal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/vetrikuzhal/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/vetrikuzhal/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/vetrikuzhal/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/vetrikuzhal/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/vetrikuzhal/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/vetrikuzhal/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/vetrikuzhal/.m2/repository/org/slf4j/slf4j-simple/2.0.17/slf4j-simple-2.0.17.jar:/Users/vetrikuzhal/.m2/repository/io/github/pityka/fileutils_2.13/1.2.5/fileutils_2.13-1.2.5.jar:/Users/vetrikuzhal/.m2/repository/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar:/Users/vetrikuzhal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/vetrikuzhal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/vetrikuzhal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign/target/surefire/surefirebooter-20250318234116896_3.jar /Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign/target/surefire 2025-03-18T23-41-16_861-jvmRun1 surefire-20250318234116896_1tmp surefire_0-20250318234116896_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign/target/test-classes:/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign/target/classes:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/vetrikuzhal/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/vetrikuzhal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vetrikuzhal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/vetrikuzhal/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/vetrikuzhal/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/vetrikuzhal/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/Users/vetrikuzhal/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/vetrikuzhal/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/vetrikuzhal/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/vetrikuzhal/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.3/webdrivermanager-5.9.3.jar:/Users/vetrikuzhal/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/vetrikuzhal/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java/3.4.1/docker-java-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-core/3.4.1/docker-java-core-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-api/3.4.1/docker-java-api-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.1/docker-java-transport-httpclient5-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/com/github/docker-java/docker-java-transport/3.4.1/docker-java-transport-3.4.1.jar:/Users/vetrikuzhal/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/vetrikuzhal/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/vetrikuzhal/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/vetrikuzhal/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/vetrikuzhal/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/vetrikuzhal/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/vetrikuzhal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/vetrikuzhal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/vetrikuzhal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/vetrikuzhal/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/vetrikuzhal/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/vetrikuzhal/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/vetrikuzhal/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/vetrikuzhal/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/vetrikuzhal/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/vetrikuzhal/.m2/repository/org/slf4j/slf4j-simple/2.0.17/slf4j-simple-2.0.17.jar:/Users/vetrikuzhal/.m2/repository/io/github/pityka/fileutils_2.13/1.2.5/fileutils_2.13-1.2.5.jar:/Users/vetrikuzhal/.m2/repository/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar:/Users/vetrikuzhal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/vetrikuzhal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/vetrikuzhal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vetrikuzhal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign/target/surefire/surefirebooter-20250318234116896_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="vetrikuzhal"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="Chromeheadless"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/vetrikuzhal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/p4/r7_82lld21380j5cb1m4hq4h0000gn/T/"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="/Users/vetrikuzhal/eclipse-workspace/seleniumFrameworkDesign"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vetrikuzhal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="LoginErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="0.0">
+    <skipped message="expected [Incorrect email or password.----] but found [Incorrect email or password.]"/>
+    <system-out><![CDATA[testing@user.com   Password1
+incorrect@user.com   IncorrectPassword1
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2025 11:41:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
+Mar 18, 2025 11:41:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="LoginErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="0.0">
+    <skipped message="expected [Incorrect email or password.----] but found [Incorrect email or password.]"/>
+    <system-out><![CDATA[incorrect@user.com   IncorrectPassword1
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2025 11:41:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="LoginErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="1.276">
+    <failure message="expected [Incorrect email or password.----] but found [Incorrect email or password.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Incorrect email or password.----] but found [Incorrect email or password.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at SeleniumFrameworkDesign.Tests.ErrorValidationsTest.LoginErrorValidation(ErrorValidationsTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[incorrect@user.com   IncorrectPassword1
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2025 11:41:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="ProductErrorValidation" classname="SeleniumFrameworkDesign.Tests.ErrorValidationsTest" time="2.433">
+    <system-out><![CDATA[testing@user.com   Password1
+]]></system-out>
+  </testcase>
+  <testcase name="SubmitOrder[{userName=testing@user.com, password=Password1, productName=ZARA COAT 3}](1)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="2.152">
+    <system-out><![CDATA[THANKYOU FOR THE ORDER.
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2025 11:41:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="SubmitOrder[{userName=testing1@user1.com, password=Password1, productName=ADIDAS ORIGINAL}](2)" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="3.331">
+    <system-out><![CDATA[testing1@user1.com   Password1
+THANKYOU FOR THE ORDER.
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2025 11:41:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+  <testcase name="OrderHistoryTest" classname="SeleniumFrameworkDesign.Tests.SubmitOrderTest" time="0.753">
+    <system-out><![CDATA[testing@user.com   Password1
+]]></system-out>
+    <system-err><![CDATA[Mar 18, 2025 11:41:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 134, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 134
+]]></system-err>
+  </testcase>
+</testsuite>

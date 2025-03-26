@@ -1,0 +1,9 @@
+seleniumFrameworkDesign/PageObjects/CheckOutPage.class
+seleniumFrameworkDesign/PageObjects/CartPage.class
+seleniumFrameworkDesign/AbstractComponents/AbstractComponent.class
+MatrixMaxSum.class
+seleniumFrameworkDesign/PageObjects/ProductCatalog.class
+seleniumFrameworkDesign/resources/ExtentReportsNG.class
+seleniumFrameworkDesign/PageObjects/OrderConfirmationPage.class
+seleniumFrameworkDesign/PageObjects/OrdersPage.class
+seleniumFrameworkDesign/PageObjects/LandingPage.class
